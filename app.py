@@ -9,7 +9,7 @@ from pdf_converter import pdf_image_text, pdf_parser_text
 import tempfile
 
 with st.sidebar:
-    groq_api_key = st.text_input("Groq API Key", key="api_key", type="password", value="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")
+    groq_api_key = st.text_input("Groq API Key", key="api_key", type="password", value="defaultKey")
     model = st.text_input("Model Id", key="model", value="llama-3.1-8b-instant")
     "[![source in GitHub ](https://github.com/codespaces/badge.svg)](https://github.com/achreftlili/ovrsea-test)"
 
