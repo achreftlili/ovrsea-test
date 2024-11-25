@@ -1,0 +1,8 @@
+streamlit
+langchain-core
+langchain-groq
+opencv-python
+numpy
+pydantic
+pdf2image
+pytesseract
